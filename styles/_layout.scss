@@ -1,0 +1,29 @@
+@import "helpers/variables";
+
+.header {
+  height: $header-height;
+  padding: $default-padding;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  z-index: 100;
+
+  @media(max-width: 960px) {
+    padding: 0px 0px;
+    top: 10px;
+  }
+
+  &__logo {
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 40px;
+  }
+}
+
+.main {
+}
+

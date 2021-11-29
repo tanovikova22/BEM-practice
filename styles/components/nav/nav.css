@@ -1,0 +1,48 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  flex-grow: 1;
+}
+.nav-items {
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+}
+.nav-items__menu {
+  margin-right: 38px;
+}
+.nav-items__menu i {
+  padding: 0px 12px;
+  font-size: 12px;
+}
+.nav-items__menu_dropdown {
+  cursor: pointer;
+}
+.nav-icons {
+  display: flex;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-icons *:not(:last-child) {
+  margin-right: 20px;
+}
+.nav-input {
+  display: flex;
+  margin: 0px 20px;
+  flex-grow: 1;
+  background: #fff;
+  padding: 0px 15px;
+  max-width: 50%;
+}
+.nav-input__field {
+  width: 100%;
+}
+.nav-input__icon {
+  margin-right: 15px;
+  font-size: 16px;
+  align-self: center;
+}
+
+/*# sourceMappingURL=nav.css.map */

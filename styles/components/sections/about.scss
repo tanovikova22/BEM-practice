@@ -1,0 +1,14 @@
+.section-about {
+  display: grid;
+  padding: 32px 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  >* {
+    justify-content: center;
+  }
+
+  @media(max-width: 1264px) {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+  }
+}

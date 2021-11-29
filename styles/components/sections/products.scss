@@ -1,0 +1,25 @@
+.section-products {
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    display: grid;
+    grid-gap: 32px;
+    padding: 32px 0px;
+    grid-template-columns: 1fr;
+
+    @media(min-width: 600px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media(min-width: 1264px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media(min-width: 1904px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  &__button {
+    align-self: center;
+  }
+}

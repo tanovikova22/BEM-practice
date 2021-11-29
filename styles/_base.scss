@@ -1,0 +1,37 @@
+html, body {
+  margin: 0px;
+  color: #3A3A3A;
+}
+
+* {
+  font-family: Gilroy;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  height: 45px;
+  outline: none;
+}

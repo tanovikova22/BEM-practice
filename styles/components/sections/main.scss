@@ -1,0 +1,35 @@
+@import "../../helpers/variables";
+
+.section-main {
+  background: linear-gradient(to right, $buff 70%, $ivory 70% 100%);
+  padding-top: $header-height + 44px;
+  padding-bottom: 0;
+  position: relative;
+
+
+  .main-banner {
+    left: 100px;
+    bottom: 80px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.72);
+    z-index: 10;
+    padding: 60px;
+    max-width: 370px;
+
+    &__header {
+      margin: 0;
+    }
+
+    &__paragraph {
+      line-height: 30px;
+      color: #898989;
+      font-weight: 500;
+      margin-bottom: 48px;
+    }
+
+    @media(max-width: 1264px) {
+      position: static;
+      max-width: 100%;
+    }
+  }
+}

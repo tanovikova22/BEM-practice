@@ -1,0 +1,31 @@
+@import "./helpers/variables";
+
+.swiper-pagination-bullet-active {
+
+  background: transparent !important;
+  position: relative;
+  margin: 0px 10px !important;
+
+
+  &::before {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: $primary;
+    content: " ";
+    top: 0px;
+    left: 0px;
+  }
+
+  &::after {
+    border: 1px solid $primary;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+    content: "";
+  }
+}

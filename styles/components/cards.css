@@ -1,0 +1,45 @@
+.description-card {
+  background: #F4F5F7;
+  padding: 24px;
+}
+.description-card_absolute {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.72);
+  margin: 40px;
+}
+.description-card__header {
+  font-size: 24px;
+  margin: 0;
+}
+.description-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.description-card__price {
+  font-weight: 600;
+  font-size: 20px;
+}
+.description-card__old-price {
+  color: #B0B0B0;
+  text-decoration-line: line-through;
+}
+
+.about-card {
+  display: flex;
+}
+.about-card__icon {
+  font-size: 32px;
+  align-self: center;
+  margin-right: 28px;
+}
+.about-card__header {
+  margin: 0;
+}
+.about-card__text {
+  color: #898989;
+}
+
+/*# sourceMappingURL=cards.css.map */

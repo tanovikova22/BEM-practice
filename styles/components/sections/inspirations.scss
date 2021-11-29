@@ -1,0 +1,17 @@
+.section-inspirations {
+  background: $ivory;
+  display: flex;
+  align-items: center;
+
+  .text-article-block {
+    margin-right: 80px;
+  }
+
+  @media(max-width: 1264px) {
+    display: block;
+
+    .text-article-block {
+      margin-bottom: 80px;
+    }
+  }
+}
